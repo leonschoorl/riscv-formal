@@ -24,7 +24,7 @@ module rvfi_wrapper (
 (* keep *) wire  dBusWishbone_STB;
 (* keep *) wire  dBusWishbone_WE;
 
-contranomyRVFI uut (
+contranomy uut (
   .clk (clock),
   .reset (reset),
 
