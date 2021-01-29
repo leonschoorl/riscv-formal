@@ -36,4 +36,4 @@ for x in checks/*.sby; do
 	else
 		printf "%-20s %s\n" $x unknown
 	fi
-done | awk '{ print gensub(":", "", "g", $3), $0; }' | sort -n | cut -f2- -d' ' > cexdata/status.txt
+done > cexdata/status.txt
